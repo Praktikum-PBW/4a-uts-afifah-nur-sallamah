@@ -1,0 +1,150 @@
+section {
+    padding: 1rem 5%;
+  }
+  
+  .heading {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .heading span {
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.726);
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+  }
+
+.card-text{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    text-align: justify;
+}  
+
+/* Menu */
+.menu p{
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.menu h3{
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+
+.banner{
+    background-image: url("img/seoul.jpg");
+    background-size: cover;
+    padding: 20%;
+    padding-bottom: 20%;
+}
+
+/* About */
+  .about h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30 0px;
+    text-align: justify;
+  }
+  
+  .about img {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 700px;
+  }
+
+/* DESTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link {
+      text-transform: capitalize;
+      margin-right: 30px;
+    }
+  
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #00000085;
+      width: 60%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+    .carousel-item .container p {
+      font-size: 18px;
+    }
+  
+    .heading span {
+      font-size: 2rem;
+    }
+  
+    .about {
+      text-align: left;
+    }
+  
+    .carousel-item .container {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin-top: 150px;
+      position: absolute;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  /* DESTOP VERSION */
+@media (max-width: 1233px) {
+    .card {
+      max-width: 420px;
+    }
+  }
+  
+  /* DESTOP VERSION */
+  @media (max-width: 992px) {
+    .card {
+      max-width: 640px;
+    }
+  }
+  
+  /* DESTOP VERSION */
+  @media (max-width: 576px) {
+    .carousel-item .container {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin-top: 170px;
+      position: absolute;
+      color: white;
+      text-align: center;
+    }
+  
+    .carousel-item .container h1 {
+      font-size: 36px;
+      text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+      margin-bottom: 5px;
+    }
+  }
